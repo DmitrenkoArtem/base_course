@@ -1,5 +1,5 @@
-year = int(input())
-if year%400==0 or (year%4==0 and year%100!=0):
-    print('Високосный')
-else:
-    print('нет')
+b1=int(input('Первый член: '))
+q=int(input('Знаменатель: '))
+length=int(input('Количество членов: '))
+for n in range(length):
+    print(b1*q**(n))
