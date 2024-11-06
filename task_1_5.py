@@ -1,6 +1,6 @@
 import numpy as np
 
-def func(shape:str,*args)
+def func(shape:str,*args):
     if shape=='круг':
         s=args[1]*np.pi*2
     elif shape=='прямоугольник':
