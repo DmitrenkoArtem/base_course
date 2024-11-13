@@ -10,4 +10,6 @@ def fib(n):
         else:
             a[i]=a[i-1]+a[i-2]
     return a[-1]
-print(fib(10))
+
+for i in range(1, 20, 1):
+    print(fib(i))

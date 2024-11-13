@@ -3,4 +3,5 @@ def func(a,n):
     for i in range (n):
         result*=a
     return result
-print(func(2,10))
+
+print(func(2,3))
