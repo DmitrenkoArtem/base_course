@@ -2,7 +2,8 @@ import numpy as np
 
 n=int(input('N: '))
 m=int(input('M: '))
-trigonometry_array=np.zeros((n,m))
+
+trigonometry_array=np.zeros((n, m))
 
 for i in range(n):
     for j in range(m):
