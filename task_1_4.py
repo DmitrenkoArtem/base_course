@@ -8,7 +8,7 @@ def log_spiral(e,b):
     y=r*np.sin(ugol)
     plt.plot(x,y)
     plt.axis('equal')
-    plt.savefig('sd')
+    plt.savefig('task_1_4_log_spiral.png')
 def arhimedova_spiral(k):
     ugol=np.arange(0,8*np.pi,0.1)
     r=k*ugol
@@ -16,7 +16,7 @@ def arhimedova_spiral(k):
     y=r*np.sin(ugol)
     plt.plot(x,y)
     plt.axis('equal')
-    plt.savefig('sd')
+    plt.savefig('task_1_4_arhimedova_spiral.png')
 def zhezl(k):
     ugol=np.arange(0.01,8*np.pi,0.1)
     r=k/np.sqrt(ugol)
@@ -24,7 +24,7 @@ def zhezl(k):
     y=r*np.sin(ugol)
     plt.plot(x,y)
     plt.axis('equal')
-    plt.savefig('sd')
+    plt.savefig('task_1_4_zhezl.png')
 def roza(k):
     ugol=np.arange(0,8*np.pi,0.1)
     r=np.sin(k*ugol)
@@ -32,7 +32,7 @@ def roza(k):
     y=r*np.sin(ugol)
     plt.plot(x,y)
     plt.axis('equal')
-    plt.savefig('sd')
+    plt.savefig('task_1_4_roza.png')
 if __name__=='__main__':
     #log_spiral(1.1,2)
     #arhimedova_spiral(10)

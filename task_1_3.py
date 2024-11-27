@@ -7,6 +7,6 @@ def elips_plotter(a=1,s=0.1,r=10):
     func=y**2+2*x**2
     plt.contour(x,y,func,levels=[a])
     plt.axis('equal')
-    plt.savefig('sd')
+    plt.savefig('task_1_3.png')
 if __name__=='__main__':
     elips_plotter(50)
